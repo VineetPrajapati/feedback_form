@@ -26,3 +26,4 @@ dist-ssr
 *.sw?
 
 Frontend/.env
+Backend/.env
