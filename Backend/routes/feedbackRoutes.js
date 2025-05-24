@@ -8,6 +8,7 @@ router.post("/", async (req, res) => {
     const { name, email, message } = req.body;
     const feedback = Feedback({ name, email, message });
     await feedback.save();
+    res.status(201).json({message: "Feedback submitted successfully!"})
   } catch (err) {
     res.status(400).json({ err: "Error saving feedback" });
   }
