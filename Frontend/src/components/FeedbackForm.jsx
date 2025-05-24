@@ -20,7 +20,7 @@ const FeedbackForm = ({ onFeedbackSubmit }) => {
       return;
     }
 
-    const res = await fetch("http://localhost:8000/feedback", {
+    const res = await fetch(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/feedback`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(formData),
