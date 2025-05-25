@@ -99,6 +99,6 @@ There are some problems while deploying backend 😔
 ## 🧑‍💻 Author
 
 **Vineet Prajapati**  
-📧 vineetprajapati2203@example.com  
+📧 vineetprajapati2203@gmail.com 
 🔗 [LinkedIn](https://www.linkedin.com/in/vineet-prajapati/)  
 🔗 [Portfolio](https://vineet-portfolio-eight.vercel.app/)
