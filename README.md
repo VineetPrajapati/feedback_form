@@ -47,8 +47,8 @@ A simple full-stack Feedback Application built with **React**, **Express.js**, *
 ### 1. Clone the Repository
 
 \`\`\`bash
-git clone https://github.com/your-username/feedback-app.git
-cd feedback-app
+git clone https://github.com/VineetPrajapati/feedback_form.git
+cd feedback-form
 \`\`\`
 
 ---
@@ -56,7 +56,7 @@ cd feedback-app
 ### 2. Setup Backend (Node.js + MongoDB)
 
 \`\`\`bash
-cd feedback-backend
+cd feedback/backend
 npm install
 \`\`\`
 
@@ -78,7 +78,7 @@ npm start
 ### 3. Setup Frontend (React + TailwindCSS)
 
 \`\`\`bash
-cd feedback-frontend
+cd feedback/frontend
 npm install
 npm run dev
 \`\`\`
