@@ -26,14 +26,14 @@ A simple full-stack Feedback Application built with **React**, **Express.js**, *
 ## 📁 Project Structure
 
 \`\`\`bash
-/feedback-app
-├── feedback-frontend/      # React + TailwindCSS frontend
+/feedback_form
+├── feedback_form/frontend/      # React + TailwindCSS frontend
 │   ├── src/components/
 │   │   ├── FeedbackForm.jsx
 │   │   └── FeedbackList.jsx
 │   └── App.js
 │
-└── feedback-backend/       # Node + Express backend
+└── feedback_form/backend/       # Node + Express backend
     ├── routes/feedbackRoutes.js
     ├── models/Feedback.js
     ├── config/db.js
