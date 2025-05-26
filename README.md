@@ -1,6 +1,6 @@
 # 📋 Feedback Application
 
-A simple full-stack Feedback Application built with **React**, **Express.js**, **MongoDB**, and **TailwindCSS**. Users can submit feedback, which is stored in a MongoDB database and displayed on the frontend. Fully responsive and deployed on the cloud.
+A simple full-stack Feedback Application built with **React**, **Express.js**, **MongoDB**, and **TailwindCSS**. Users can submit feedback stored in a MongoDB database and displayed on the frontend. Fully responsive and deployed on the cloud.
 
 ---
 
@@ -9,7 +9,7 @@ A simple full-stack Feedback Application built with **React**, **Express.js**, *
 - **Frontend:** React, TailwindCSS
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB (via Mongoose)
-- **Deployment:** Help Required!
+- **Deployment:** Vercel (Frontend), Render (Backend)
 
 ---
 
@@ -26,14 +26,13 @@ A simple full-stack Feedback Application built with **React**, **Express.js**, *
 ## 📁 Project Structure
 
 \`\`\`bash
-/feedback_form
-├── feedback_form/frontend/      # React + TailwindCSS frontend
-│   ├── src/components/
-│   │   ├── FeedbackForm.jsx
-│   │   └── FeedbackList.jsx
-│   └── App.js
+/feedback_form    
+│── src/components/    # React + TailwindCSS frontend
+│   ├── FeedbackForm.jsx
+│   └── FeedbackList.jsx
+│── App.js
 │
-└── feedback_form/backend/       # Node + Express backend
+└── /server/       # Node + Express backend
     ├── routes/feedbackRoutes.js
     ├── models/Feedback.js
     ├── config/db.js
@@ -56,7 +55,7 @@ cd feedback-form
 ### 2. Setup Backend (Node.js + MongoDB)
 
 \`\`\`bash
-cd feedback/backend
+cd server
 npm install
 \`\`\`
 
@@ -78,21 +77,14 @@ npm start
 ### 3. Setup Frontend (React + TailwindCSS)
 
 \`\`\`bash
-cd feedback/frontend
+cd feedback_form
 npm install
 npm run dev
 \`\`\`
 
 The app will run at: \`http://localhost:5173\`  
-Make sure the backend is running on \`http://localhost:8000\`
+Make sure the server is running on \`http://localhost:8000\`
 
----
-
-## 🌐 Deployment
-
-There are some problems while deploying backend 😔
-
-- NEED HELP 
 
 ---
 
