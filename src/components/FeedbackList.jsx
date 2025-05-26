@@ -6,7 +6,7 @@ const FeedbackList = () => {
   useEffect(() => {
     const fetchFeedback = async () => {
       try {
-        const res = await fetch(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}/feedback`);
+        const res = await fetch(`${import.meta.env.VITE_REACT_APP_BACKEND_BASEURL}`);
         const data = await res.json();
         setFeedback(data);
       } catch (err) {
