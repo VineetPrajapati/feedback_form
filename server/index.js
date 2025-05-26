@@ -18,6 +18,7 @@ app.use(express.json());
 
 // routes
 app.use("/feedback", feedbackRouters);
+app.get("/", (req, res) => res.json("Hello"));
 
 // PORT
 const PORT = process.env.PORT || 8080;
