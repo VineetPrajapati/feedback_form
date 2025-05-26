@@ -18,7 +18,7 @@ const FeedbackList = () => {
   return (
     <section className="w-full max-w-md bg-white p-6 rounded-lg shadow-md mt-8 mb-12">
       <h3 className="text-xl font-semibold text-center text-red-700 mb-6">
-        FeedBack Received
+        Feedback Received
       </h3>
       {feedback.length === 0 ? (
         <p className="text-gray-500 text-center">No feedback yet.</p>
